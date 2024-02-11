@@ -4,7 +4,7 @@ This example contains two pipelines:
 
 	This pipeline retrieves SQL files from a directory reachable from the Data Collector machine, for example, a local directory or an NFS mounted directory.  
 	
-	The pipeline could be easily be modified to pick up SQL files from an S3 bucket, SFTP, or other source system.
+	The pipeline could easily be modified to pick up SQL files from an S3 bucket, SFTP, or other source system.
 	
 	*This approach is the recommended way to proceed*, as a single pipeline can be re-used by multiple [Job Template Instances](https://docs.streamsets.com/portal/platform-controlhub/controlhub/UserGuide/JobTemplates/Overview.html#concept_ijr_1c3_trb), with each instance pointing to a different SQL file, and with the SQL decoupled from the pipeline definition.
 
