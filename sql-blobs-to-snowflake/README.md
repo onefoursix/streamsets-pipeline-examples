@@ -1,4 +1,4 @@
-# Example Pipeline sql-blobs-to-snowflake
+# sql-blobs-to-snowflake
 This example contains two pipelines: 
 - <code>Snowflake SQL Blob from File</code>.
 

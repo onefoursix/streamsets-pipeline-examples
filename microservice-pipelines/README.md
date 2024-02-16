@@ -1,4 +1,4 @@
-# Microservice Pipeline Example
+# microservice-pipelines
 
 This example contains three pipelines: 
 - <code>IsPrimeMicroservice</code>.
